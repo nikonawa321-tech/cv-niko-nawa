@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Profesional - Niko Nawa</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial;background:#0f172a;color:#e2e8f0}
+
+header{
+  text-align:center;
+  padding:60px 20px;
+  background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+
+header img{
+  width:140px;height:140px;border-radius:50%;
+  border:4px solid #38bdf8;
+  object-fit:cover;
+  animation:fadeIn 1.5s ease;
+}
+
+header h1{margin-top:15px;font-size:28px}
+header p{color:#94a3b8}
+
+nav{
+  display:flex;justify-content:center;gap:20px;
+  background:#020617;padding:10px;position:sticky;top:0
+}
+nav a{color:#38bdf8;text-decoration:none;font-weight:bold}
+
+.container{max-width:1000px;margin:auto;padding:20px}
+
+.section{
+  margin:40px 0;
+  padding:20px;
+  background:#1e293b;
+  border-radius:10px;
+  animation:fadeUp 1s ease;
+}
+
+h2{margin-bottom:10px;color:#38bdf8}
+
+ul{padding-left:20px}
+
+.social a{
+  display:inline-block;margin-right:10px;color:white;
+  background:#38bdf8;padding:8px 12px;border-radius:5px;text-decoration:none
+}
+
+.btn{
+  display:inline-block;margin-top:10px;padding:10px 15px;
+  background:#22c55e;color:white;border-radius:5px;text-decoration:none
+}
+
+/* Animasi */
+@keyframes fadeIn{
+  from{opacity:0;transform:scale(0.8)}
+  to{opacity:1;transform:scale(1)}
+}
+
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="fotoku.jpg" alt="Foto Profil">
+<h1>Niko Nawa</h1>
+<p>Konten Kreator • Freelancer • Digital Creator</p>
+</header>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#skill">Skill</a>
+<a href="#portofolio">Portofolio</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+<div id="profil" class="section">
+<h2>Profil</h2>
+<p>Saya adalah konten kreator dari Jayapura yang fokus pada pembuatan konten inspiratif, membangun komunitas kreator, dan mengembangkan personal branding di media sosial.</p>
+</div>
+
+<div class="section">
+<h2>Data Pribadi</h2>
+<ul>
+<li>Nama: Niko Nawa</li>
+<li>Email: nikonawa321@email.com</li>
+<li>WhatsApp: 082211247401</li>
+<li>Alamat: BTN permata hijau/li>
+</ul>
+</div>
+
+<div id="skill" class="section">
+<h2>Keahlian</h2>
+<ul>
+<li>Editing Video</li>
+<li>Content Creator</li>
+<li>Social Media Growth</li>
+<li>Public Speaking</li>
+</ul>
+</div>
+
+<div id="portofolio" class="section">
+<h2>Portofolio</h2>
+<ul>
+<li>Konten Facebook Pro (Video & Reels)</li>
+<li>Campaign Support Kreator</li>
+<li>Konten Viral & Engagement Tinggi</li>
+</ul>
+</div>
+
+<div class="section social">
+<h2>Media Sosial</h2>
+<a href="#">Facebook</a>
+<a href="#">TikTok</a>
+<a href="#">Instagram</a>
+</div>
+
+<div id="kontak" class="section">
+<h2>Kontak</h2>
+<a href="mailto:nikonawa321@email.com" class="btn">Kirim Email</a>
+</div>
+
+</div>
+
+</body>
+</html>
